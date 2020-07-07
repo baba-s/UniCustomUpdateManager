@@ -8,19 +8,19 @@ using UnityEngine;
 
 public class Example : MonoBehaviour, IUpdatable
 {
-	private void OnEnable()
-	{
-		CustomUpdateManager.Add( this );
-	}
+    private void OnEnable()
+    {
+        CustomUpdateManager.Add( this );
+    }
 
-	private void OnDisable()
-	{
-		CustomUpdateManager.Remove( this );
-	}
+    private void OnDisable()
+    {
+        CustomUpdateManager.Remove( this );
+    }
 
-	void IUpdatable.OnUpdate()
-	{
-		Debug.Log( "ピカチュウ" );
-	}
+    void IUpdatable.OnUpdate()
+    {
+        Debug.Log( "ピカチュウ" );
+    }
 }
 ```
