@@ -29,3 +29,8 @@ public class Example : MonoBehaviour, IUpdatable
     }
 }
 ```
+
+## 参考
+
+* https://www.packtpub.com/game-development/unity-2017-game-optimization-second-edition
+* https://blogs.unity3d.com/jp/2015/12/23/1k-update-calls/
